@@ -47,3 +47,7 @@ def cherry(animal, fitness, cross, mutate, parents, children, rounds):
 
 
         return population
+
+
+def lucky(rank):
+        return rnd.random() < 1 / math.sqrt(1 + rank)
