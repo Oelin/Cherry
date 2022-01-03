@@ -8,8 +8,6 @@ from cherry import cherry
 problem = lambda x: x ** 2 # we want to minimize this function
 
 solutions = cherry(fitness = problem, ...)
-
-solutions
 ```
 
 
